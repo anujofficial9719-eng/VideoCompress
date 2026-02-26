@@ -12,7 +12,7 @@ class Config(object):
     # The Telegram API things
     APP_ID = int(get_config("APP_ID", 34724970))
     API_HASH = get_config("API_HASH", "API_HASH=f240eae7c60e8e30c17203ab0e052f7e")
-    LOG_CHANNEL = get_config("LOG_CHANNEL")
+    LOG_CHANNEL = get_config("LOG_CHANNEL", "LOG_CHANNEL=-1003793547457
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
@@ -26,9 +26,9 @@ class Config(object):
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
     BOT_USERNAME = get_config("BOT_USERNAME", "Ak_encoder_pro_bot")
-    MAX_FILE_SIZE = 2097152000
-    TG_MAX_FILE_SIZE = 2097152000
-    FREE_USER_MAX_FILE_SIZE = 2097152000
+    MAX_FILE_SIZE = 7521421400
+    TG_MAX_FILE_SIZE = 7521421400
+    FREE_USER_MAX_FILE_SIZE = 7521421400
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = get_config("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
     # proxy for accessing youtube-dl in GeoRestricted Areas
